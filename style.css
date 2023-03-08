@@ -1,0 +1,46 @@
+th, td {
+    border: 1px solid black;
+}
+.sizeTable tr:nth-child(even) {
+    background-color: #CCE5FF;
+}
+input {
+    width: 160px;
+}
+h5 {
+    direction: rtl;
+}
+
+ul {
+    list-style: square outside;
+}
+
+
+ins {
+    box-shadow: inset 0 0 10px red;
+}
+
+td {
+    padding: 5px;
+}
+button {
+    border-radius: 25px;
+}
+
+.sizeTable {
+    border: 3px solid red;
+}
+
+ul {
+    margin: 30px;
+}
+
+.annot {
+    z-index: 100;
+    border: 1px solid black;
+    position: fixed;
+}
+
+ruby {
+    fons-size: 2em;
+}
