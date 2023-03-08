@@ -23,22 +23,22 @@ newPlace.addEventListener("mouseout", function (evt) {
     }
 });
 
-// let userAgent = navigator.userAgent;
-// let browserName = nameBrowser(userAgent);
-// alert(nameOperationSystem(userAgent));
-// alert(browserName);
-// let classNamePrompt = prompt("Введіть ім'я класу:");
-// let colorNamePrompt = prompt("Введіть колір:");
-// let elems = document.querySelectorAll(classNamePrompt);
-// elems.forEach((el) => {
-//     el.style.background = colorNamePrompt;
-// });
-// let resConfirm = confirm("Чи хочете ви перейти на сторінку GOOGLE");
-// if(resConfirm === true) {
-//     window.location.href = "https://www.google.com/";
-// } else if (resConfirm === false) {
-//     alert("Перехід на GOOGLE скасовано");
-// }
+let userAgent = navigator.userAgent;
+let browserName = nameBrowser(userAgent);
+alert(nameOperationSystem(userAgent));
+alert(browserName);
+let classNamePrompt = prompt("Введіть ім'я класу:");
+let colorNamePrompt = prompt("Введіть колір:");
+let elems = document.querySelectorAll(classNamePrompt);
+elems.forEach((el) => {
+    el.style.background = colorNamePrompt;
+});
+let resConfirm = confirm("Чи хочете ви перейти на сторінку GOOGLE");
+if(resConfirm === true) {
+    window.location.href = "https://www.google.com/";
+} else if (resConfirm === false) {
+    alert("Перехід на GOOGLE скасовано");
+}
 function nameBrowser(userAgent) {
     if (userAgent.includes("MSIE")) {
         return retName("Internet Explorer", "MSIE", userAgent);
